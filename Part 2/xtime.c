@@ -1,6 +1,9 @@
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/proc_fs.h>
+#include <linux/slab.h>
+#include <linux/string.h>
+#include <asm-generic/uaccess.h>
 
 MODULE_License("Dual BSD/GPL");
 
